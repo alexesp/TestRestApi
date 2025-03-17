@@ -4,7 +4,11 @@
              x:Class="TestRestApi.MainPage">
 
     <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Button Command="{Binding GetAllUsersCommand}" Text="Get All Users"></Button>
+        <Button Command="{Binding GetSigleUserCommand}" Text="Get Single User"></Button>
         <Button Command="{Binding AddUserCommand}" Text="Add User"></Button>
+        <Button Command="{Binding UpdateUserCommand}" Text="Update User"></Button>
+        <Button Command="{Binding DeleteUserCommand}" Text="Delete User"></Button>
     </VerticalStackLayout>
 
 </ContentPage>
